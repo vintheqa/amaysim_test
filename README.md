@@ -4,9 +4,8 @@ Pre-requisites:
 - Geckodriver (ran on firefox browser)
 
 Reference:
-
-https://webdriver.io/docs/gettingstarted.html (for setting up WebdriverIO w/ test runner)
-https://chocolatey.org/install (for installing geckodriver)
+- https://webdriver.io/docs/gettingstarted.html (for setting up WebdriverIO w/ test runner)
+- https://chocolatey.org/install (for installing geckodriver)
 
 To run test:
 1. Copy "amaysim_login.js" to "<project_name>\test\specs"
