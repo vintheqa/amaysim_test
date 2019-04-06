@@ -1,7 +1,7 @@
 const assert = require('assert');
 
 describe('amaysim login', () => {
-    it('Checks logging in to amaysim account', () => {
+    it('Tests logging in to an amaysim account', () => {
         browser.url('https://amaysim.com.au');
         const loginBtn = $('=Login');
 		loginBtn.waitForExist(30000);
