@@ -4,6 +4,7 @@ Pre-requisites:
 - Geckodriver (ran on firefox browser)
 
 Reference:
+
 https://webdriver.io/docs/gettingstarted.html (for setting up WebdriverIO w/ test runner)
 https://chocolatey.org/install (for installing geckodriver)
 
