@@ -3,7 +3,7 @@ Pre-requisites:
 - WebdriverIO w/ test runner
 - Geckodriver (ran on firefox browser)
 
-Reference: 
+Reference:
 https://webdriver.io/docs/gettingstarted.html (for setting up WebdriverIO w/ test runner)
 https://chocolatey.org/install (for installing geckodriver)
 
