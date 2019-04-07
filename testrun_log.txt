@@ -1,0 +1,114 @@
+PS C:\users\bochi\vin> ./node_modules/.bin/wdio wdio.conf.js
+2019-04-07T06:37:14.913Z INFO @wdio/cli:Launcher: Run onPrepare hook
+2019-04-07T06:37:14.929Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+
+RUNNING  0-0 in firefox - \test\specs\amaysim_login.js
+Stdout:
+[0-0] 2019-04-07T06:37:15.804Z INFO @wdio/local-runner: Run worker command: run
+[0-0] 2019-04-07T06:37:15.820Z DEBUG @wdio/local-runner:utils: init remote session
+[0-0] 2019-04-07T06:37:15.914Z INFO webdriver: [POST] http://127.0.0.1:4444/session
+[0-0] 2019-04-07T06:37:15.914Z INFO webdriver: DATA { capabilities:
+    { alwaysMatch: { browserName: 'firefox' }, firstMatch: [ {} ] },
+   desiredCapabilities: { browserName: 'firefox' } }
+[0-0] 2019-04-07T06:37:23.185Z INFO webdriver: COMMAND navigateTo("https://amaysim.com.au/")
+[0-0] 2019-04-07T06:37:23.185Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/url
+[0-0] 2019-04-07T06:37:23.185Z INFO webdriver: DATA { url: 'https://amaysim.com.au/' }
+[0-0] 2019-04-07T06:37:57.140Z INFO webdriver: COMMAND findElement("link text", "Login")
+[0-0] 2019-04-07T06:37:57.140Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element
+[0-0] 2019-04-07T06:37:57.140Z INFO webdriver: DATA { using: 'link text', value: 'Login' }
+[0-0] 2019-04-07T06:37:57.345Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'e99b581c-309c-43c0-a62f
+-96a8a92deafc' }
+[0-0] 2019-04-07T06:37:57.454Z INFO webdriver: COMMAND findElements("link text", "Login")
+[0-0] 2019-04-07T06:37:57.454Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/elements
+[0-0] 2019-04-07T06:37:57.454Z INFO webdriver: DATA { using: 'link text', value: 'Login' }
+[0-0] 2019-04-07T06:37:58.907Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'e99b581c-309c-43c0-a6
+2f-96a8a92deafc' } ]
+[0-0] 2019-04-07T06:37:58.923Z INFO webdriver: COMMAND takeScreenshot()
+2019-04-07T06:37:58.923Z INFO webdriver: [GET] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413/scree
+nshot
+[0-0] 2019-04-07T06:37:59.079Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVYAAAJqCAYAAADAJhtKAAAgAElEQVR4nOy9e...
+[0-0] 2019-04-07T06:37:59.095Z INFO webdriver: COMMAND elementClick("e99b581c-309c-43c0-a62f-96a8a92deafc")
+[0-0] 2019-04-07T06:37:59.095Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element/e99b581c-309c-43c0-a62f-96a8a92deafc/click
+[0-0] 2019-04-07T06:38:06.017Z INFO webdriver: COMMAND findElement("css selector", "#username")
+2019-04-07T06:38:06.017Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413/elem
+ent
+2019-04-07T06:38:06.017Z INFO webdriver: DATA { using: 'css selector', value: '#username' }
+[0-0] 2019-04-07T06:38:06.095Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': '9a8b19b9-2084-4f72-9ea5
+-beeb7fd506e2' }
+[0-0] 2019-04-07T06:38:06.110Z INFO webdriver: COMMAND findElement("css selector", "#password")
+[0-0] 2019-04-07T06:38:06.110Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element
+[0-0] 2019-04-07T06:38:06.110Z INFO webdriver: DATA { using: 'css selector', value: '#password' }
+[0-0] 2019-04-07T06:38:06.157Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': '14083949-dcc6-4058-b1c8
+-53a3ecea4d99' }
+[0-0] 2019-04-07T06:38:06.157Z INFO webdriver: COMMAND findElements("css selector", "#username")
+[0-0] 2019-04-07T06:38:06.157Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/elements
+[0-0] 2019-04-07T06:38:06.157Z INFO webdriver: DATA { using: 'css selector', value: '#username' }
+[0-0] 2019-04-07T06:38:06.173Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': '9a8b19b9-2084-4f72-9e
+a5-beeb7fd506e2' } ]
+[0-0] 2019-04-07T06:38:06.189Z INFO webdriver: COMMAND findElements("css selector", "#password")
+[0-0] 2019-04-07T06:38:06.189Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/elements
+[0-0] 2019-04-07T06:38:06.189Z INFO webdriver: DATA { using: 'css selector', value: '#password' }
+[0-0] 2019-04-07T06:38:06.204Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': '14083949-dcc6-4058-b1
+c8-53a3ecea4d99' } ]
+[0-0] 2019-04-07T06:38:06.235Z INFO webdriver: COMMAND elementClear("9a8b19b9-2084-4f72-9ea5-beeb7fd506e2")
+2019-04-07T06:38:06.235Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413/elem
+ent/9a8b19b9-2084-4f72-9ea5-beeb7fd506e2/clear
+[0-0] 2019-04-07T06:38:06.251Z INFO webdriver: COMMAND elementSendKeys("9a8b19b9-2084-4f72-9ea5-beeb7fd506e2", "0468340
+754")
+[0-0] 2019-04-07T06:38:06.251Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element/9a8b19b9-2084-4f72-9ea5-beeb7fd506e2/value
+[0-0] 2019-04-07T06:38:06.251Z INFO webdriver: DATA { text: '0468340754' }
+[0-0] 2019-04-07T06:38:06.298Z INFO webdriver: COMMAND elementClear("14083949-dcc6-4058-b1c8-53a3ecea4d99")
+[0-0] 2019-04-07T06:38:06.298Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element/14083949-dcc6-4058-b1c8-53a3ecea4d99/clear
+[0-0] 2019-04-07T06:38:06.329Z INFO webdriver: COMMAND elementSendKeys("14083949-dcc6-4058-b1c8-53a3ecea4d99", "theHoff
+34")
+[0-0] 2019-04-07T06:38:06.329Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element/14083949-dcc6-4058-b1c8-53a3ecea4d99/value
+[0-0] 2019-04-07T06:38:06.329Z INFO webdriver: DATA { text: 'theHoff34' }
+[0-0] 2019-04-07T06:38:06.360Z INFO webdriver: COMMAND takeScreenshot()
+[0-0] 2019-04-07T06:38:06.360Z INFO webdriver: [GET] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413
+/screenshot
+[0-0] 2019-04-07T06:38:06.642Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVYAAAJqCAYAAADAJhtKAAAgAElEQVR4nOy9T...
+[0-0] 2019-04-07T06:38:06.657Z INFO webdriver: COMMAND findElement("css selector", ".arrow-next")
+2019-04-07T06:38:06.657Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413/elem
+ent
+2019-04-07T06:38:06.657Z INFO webdriver: DATA { using: 'css selector', value: '.arrow-next' }
+2019-04-07T06:38:06.673Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': '67c3d054-b290-46a6-9149-37c3b
+cafad3b' }
+[0-0] 2019-04-07T06:38:06.673Z INFO webdriver: COMMAND elementClick("67c3d054-b290-46a6-9149-37c3bcafad3b")
+[0-0] 2019-04-07T06:38:06.689Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec41
+3/element/67c3d054-b290-46a6-9149-37c3bcafad3b/click
+[0-0] 2019-04-07T06:38:34.268Z INFO webdriver: COMMAND findElement("css selector", ".service-primary-heading")
+2019-04-07T06:38:34.269Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413/elem
+ent
+2019-04-07T06:38:34.270Z INFO webdriver: DATA { using: 'css selector', value: '.service-primary-heading' }
+[0-0] 2019-04-07T06:38:34.405Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'eda9c35b-da9b-464a-af9b
+-46c77c878d05' }
+[0-0] 2019-04-07T06:38:34.422Z INFO webdriver: COMMAND findElements("css selector", ".service-primary-heading")
+2019-04-07T06:38:34.423Z INFO webdriver: [POST] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413/elem
+ents
+2019-04-07T06:38:34.423Z INFO webdriver: DATA { using: 'css selector', value: '.service-primary-heading' }
+[0-0] 2019-04-07T06:38:34.453Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'eda9c35b-da9b-464a-af
+9b-46c77c878d05' } ]
+[0-0] 2019-04-07T06:38:34.462Z INFO webdriver: COMMAND getElementText("eda9c35b-da9b-464a-af9b-46c77c878d05")
+[0-0] 2019-04-07T06:38:34.465Z INFO webdriver: [GET] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413
+/element/eda9c35b-da9b-464a-af9b-46c77c878d05/text
+[0-0] 2019-04-07T06:38:34.505Z INFO webdriver: RESULT 0468 340 754
+[0-0] 2019-04-07T06:38:34.506Z INFO webdriver: COMMAND takeScreenshot()
+[0-0] 2019-04-07T06:38:34.506Z INFO webdriver: [GET] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413
+/screenshot
+[0-0] 2019-04-07T06:38:34.629Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABVYAAAJqCAYAAADAJhtKAAAgAElEQVR4nOzdf...
+2019-04-07T06:38:34.637Z INFO webdriver: COMMAND deleteSession()
+2019-04-07T06:38:34.638Z INFO webdriver: [DELETE] http://127.0.0.1:4444/session/ebc13d30-668e-4ca6-bb3c-accbf02ec413
+
+
+Test Suites:     1 passed, 1 total (100% completed)
+Time:            �  83.65s
